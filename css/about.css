@@ -1,0 +1,120 @@
+.about-title__section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 101px;
+}
+
+.aboutus__title {
+	margin-bottom: 10px;
+	color: rgb(61, 48, 23);
+	font-family: Fahkwang;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 55px;
+	letter-spacing: 0%;
+
+}
+
+.abotus__subtitle {
+	color: rgb(61, 48, 23);
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0%;
+
+}
+
+.btn_wrap {
+	display: flex;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/Mask\ group.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.video__btn {
+	margin: 293px auto;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: #fff;
+	align-self: center;
+	color: rgb(61, 48, 23);
+	font-size: 40px;
+	transform: rotate(90deg);
+	transition: .4s;
+}
+
+.video__btn:hover {
+	color: #fff;
+}
+
+
+#section-contact {
+	position: relative;
+	overflow: hidden;
+	padding: 100px 0;
+}
+
+#section-contact::before {
+	position: absolute;
+	content: '';
+	bottom: 10px;
+	left: 0;
+	width: 322px;
+	height: 326px;
+	opacity: 0.1;
+	background: url(/img/feedback-bg-left.png) 0% 100%/contain no-repeat;
+}
+
+.contact-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.contact-area {
+	max-width: 570px;
+}
+
+.contactus-subtitle {
+	margin-bottom: 19px;
+}
+
+.contact__text {
+	margin-bottom: 35px;
+}
+
+.contact-btn {
+	position: relative;
+}
+
+.meet-subtitle {
+	margin-left: 413px;
+	margin-bottom: 60px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 55px;
+}
+
+
+.meet {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.meet__text {
+	margin-top: 20px;
+	margin-left: 116px;
+	margin-bottom: 120px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+}

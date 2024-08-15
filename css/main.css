@@ -1,0 +1,126 @@
+.page-wrap {
+	position: relative;
+	overflow: hidden;
+	padding-top: 13px;
+}
+
+.page-wrap::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	width: 16%;
+	height: 50%;
+	opacity: 0.5;
+	background: url(/img/banner-bg-right.png) 100% 0%/contain no-repeat;
+}
+
+.page-title__section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 101px;
+}
+
+.page__title {
+	margin-bottom: 10px;
+	color: rgb(61, 48, 23);
+	font-family: Fahkwang;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 55px;
+	letter-spacing: 0%;
+
+}
+
+.page__subtitle {
+	color: rgb(61, 48, 23);
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0%;
+
+}
+
+.shop-page {
+	margin-bottom: 40px;
+}
+
+.contact-form {
+	width: 611px;
+	padding-top: 45px;
+	padding-bottom: 25px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.contact-wrap {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+ 
+.contact {
+	flex: 1;
+}
+ 
+.card {
+	flex: 1;
+}
+
+.form__group {
+	position: relative;
+	margin-bottom: 35px;
+	flex: 1;
+}
+
+
+.form__input {
+	width: 100%;
+	padding: 0 0 10px 0;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	background-color: transparent;
+	outline: none;
+	transition: .3s;
+	font-size: 16px;
+}
+
+.form__row {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 35px;
+	width: 100%;
+ }
+ 
+ 
+ .form__input::placeholder {
+	color: #595959;
+	transition: .3s;
+ }
+ 
+ .form__input:focus::placeholder {
+	opacity: 0;
+ }
+
+ .card {
+	width: 529px;
+	height: 296px;
+	background-color: #fff;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	padding: 50px 30px;
+ }
+
+ .card__title {
+	color: #9B6842;
+	margin-bottom: 10px;
+ }
+
+ .card__text {
+	margin-bottom: 32px;
+ }
